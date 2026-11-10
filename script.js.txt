@@ -1,0 +1,71 @@
+// Головна логіка UHL Archive
+
+document.addEventListener("DOMContentLoaded", () => {
+    
+    // Визначаємо, на якій ми сторінці
+    const currentPage = window.location.pathname;
+
+    // Функція завантаження БД
+    async function loadDatabase() {
+        try {
+            const response = await fetch('data/database.json');
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error("Помилка завантаження бази даних:", error);
+            return null;
+        }
+    }
+
+    // ЛОГІКА ДЛЯ ГОЛОВНОЇ СТОРІНКИ (index.html)
+    if (currentPage.includes('index') || currentPage === '/' || currentPage === '') {
+        loadDatabase().then(db => {
+            if(!db) return;
+            const featuredContainer = document.getElementById('featured-players');
+            if(featuredContainer) {
+                // Виводимо тестових гравців з БД на головну
+                for (const [id, player] of Object.entries(db.players)) {
+                    const el = document.createElement('a');
+                    el.href = `player.html?id=${id}`;
+                    el.className = 'player-item';
+                    el.innerHTML = `<span>${player.name}</span> <span>${player.current_team}</span>`;
+                    featuredContainer.appendChild(el);
+                }
+            }
+        });
+    }
+
+    // ЛОГІКА ДЛЯ СТОРІНКИ ГРАВЦЯ (player.html)
+    if (currentPage.includes('player')) {
+        // Отримуємо ID гравця з URL (наприклад, player.html?id=p1)
+        const urlParams = new URLSearchParams(window.location.search);
+        const playerId = urlParams.get('id') || 'p1'; // p1 за замовчуванням для тесту
+
+        loadDatabase().then(db => {
+            if(!db || !db.players[playerId]) {
+                document.getElementById('player-name').innerText = "Гравця не знайдено";
+                return;
+            }
+
+            const player = db.players[playerId];
+            
+            // Заповнюємо HTML даними
+            document.getElementById('player-name').innerText = player.name;
+            document.getElementById('player-avatar').innerText = player.name.charAt(0).toUpperCase();
+            document.getElementById('player-status').innerText = `Команда: ${player.current_team}`;
+            
+            document.getElementById('stat-matches').innerText = player.stats.matches;
+            document.getElementById('stat-goals').innerText = player.stats.goals;
+            document.getElementById('stat-assists').innerText = player.stats.assists;
+            document.getElementById('stat-cs').innerText = player.stats.cs;
+
+            const historyList = document.getElementById('team-history');
+            historyList.innerHTML = '';
+            player.history.forEach(item => {
+                const li = document.createElement('li');
+                li.innerText = item;
+                historyList.appendChild(li);
+            });
+        });
+    }
+});
