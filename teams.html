@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHL ARCHIVE | Команди Ліги</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background-color: #0a0a0a; color: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; display: flex; flex-direction: column; min-height: 100vh; }
+        .navbar { background: #121212; border-bottom: 1px solid #222; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .navbar .logo { font-size: 20px; font-weight: 800; color: #fff; }
+        .navbar .logo span { color: #d4af37; }
+        .navbar nav { display: flex; gap: 12px; }
+        .navbar nav a { color: #aaa; text-decoration: none; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 4px; transition: 0.2s; }
+        .navbar nav a:hover, .navbar nav a.active { color: #d4af37; background: #1a1a1a; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 30px 20px; flex: 1; width: 100%; }
+        .page-header { margin-bottom: 25px; }
+        .page-header h1 { font-size: 28px; color: #fff; margin-bottom: 5px; }
+        .filter-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 25px; }
+        .tab-btn { background: #151515; color: #aaa; border: 1px solid #262626; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-weight: 600; transition: 0.2s; }
+        .tab-btn:hover, .tab-btn.active { background: #d4af37; color: #000; border-color: #d4af37; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; }
+        .card { background: #151515; border: 1px solid #262626; border-radius: 6px; padding: 20px; }
+        .season-tag { background: #d4af37; color: #000; font-weight: bold; font-size: 11px; padding: 2px 6px; border-radius: 3px; display: inline-block; margin-top: 10px; }
+        footer { background: #111; border-top: 1px solid #222; text-align: center; padding: 20px; color: #666; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">UHL <span>ARCHIVE</span></div>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="players.html">Гравці</a>
+            <a href="teams.html" class="active">Команди</a>
+            <a href="seasons.html">Сезони</a>
+            <a href="regions.html">Кубок Регіонів</a>
+            <a href="transfers.html">Трансфери</a>
+            <a href="events.html">Події та Рекорди</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-header">
+            <h1>🛡️ Команди УХЛ (1–8 Сезони)</h1>
+            <p style="color: #888;">Усі клуби, які виступали в Чемпіонаті та Кубку України з HaxBall</p>
+        </div>
+
+        <div class="filter-tabs">
+            <button class="tab-btn active" onclick="filterTeams('all', this)">Усі сезони</button>
+            <button class="tab-btn" onclick="filterTeams(8, this)">Сезон 8</button>
+            <button class="tab-btn" onclick="filterTeams(7, this)">Сезон 7</button>
+            <button class="tab-btn" onclick="filterTeams(6, this)">Сезон 6</button>
+            <button class="tab-btn" onclick="filterTeams(5, this)">Сезон 5</button>
+            <button class="tab-btn" onclick="filterTeams(4, this)">Сезон 4</button>
+            <button class="tab-btn" onclick="filterTeams(3, this)">Сезон 3</button>
+            <button class="tab-btn" onclick="filterTeams(2, this)">Сезон 2</button>
+            <button class="tab-btn" onclick="filterTeams(1, this)">Сезон 1</button>
+        </div>
+
+        <div class="card-grid" id="teams-container">
+            <!-- Генерується через JS нижче -->
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 UHL Archive. Усі права захищено.</p>
+    </footer>
+
+    <script>
+        const teamsList = [
+            { name: "4 раки і толяс", seasons: [2,3,4,5,6,7,8], titles: "6-разові Чемпіони УХЛ", lead: "Agbonlahor 11, tolyasik, lfc" },
+            { name: "Big Dick Club", seasons: [1, 5], titles: "2-разові Чемпіони УХЛ", lead: "iks, qn" },
+            { name: "Мрія", seasons: [1,2,3,4,5,6,7,8], titles: "Володарі Кубка 4 Сезону", lead: "Din, s0beit, бун" },
+            { name: "sim 23", seasons: [8], titles: "Володарі Кубка 8 Сезону", lead: "caskader, JiU" },
+            { name: "Sало Team", seasons: [5,6,7,8], titles: "Срібні призери 8 сезону", lead: "Ramz, choz" },
+            { name: "Team Slaves", seasons: [1,6,7], titles: "Володарі Кубка 7 Сезону", lead: "FolkSCFarense" },
+            { name: "Butterflies", seasons: [2,3,4,5], titles: "Бронзові призери", lead: "Mr.Lipa, caskader" },
+            { name: "COCONUT", seasons: [1,2,3,6,7], titles: "Учасник Вищої ліги", lead: "cancer, tekashka" }
+        ];
+
+        function filterTeams(s, btn) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            if(btn) btn.classList.add('active');
+
+            const filtered = s === 'all' ? teamsList : teamsList.filter(t => t.seasons.includes(parseInt(s)));
+            document.getElementById('teams-container').innerHTML = filtered.map(t => `
+                <div class="card">
+                    <h3>🛡️ ${t.name}</h3>
+                    <p style="color:#d4af37; font-weight:bold; font-size:13px; margin: 4px 0;">${t.titles}</p>
+                    <p style="color:#888; font-size:13px;">Ключові гравці: ${t.lead}</p>
+                    <div><span class="season-tag">Участь: ${t.seasons.length} сезонів</span></div>
+                </div>
+            `).join('');
+        }
+
+        filterTeams('all');
+    </script>
+</body>
+</html>

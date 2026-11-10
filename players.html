@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHL ARCHIVE | Реєстр Гравців</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background-color: #0a0a0a; color: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; display: flex; flex-direction: column; min-height: 100vh; }
+        .navbar { background: #121212; border-bottom: 1px solid #222; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .navbar .logo { font-size: 20px; font-weight: 800; color: #fff; }
+        .navbar .logo span { color: #d4af37; }
+        .navbar nav { display: flex; gap: 12px; }
+        .navbar nav a { color: #aaa; text-decoration: none; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 4px; transition: 0.2s; }
+        .navbar nav a:hover, .navbar nav a.active { color: #d4af37; background: #1a1a1a; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 30px 20px; flex: 1; width: 100%; }
+        .page-header { margin-bottom: 25px; }
+        .page-header h1 { font-size: 28px; color: #fff; margin-bottom: 5px; }
+        .controls-bar { display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; }
+        .controls-bar input, .controls-bar select { background: #151515; color: #fff; border: 1px solid #262626; padding: 10px 15px; border-radius: 4px; font-size: 14px; flex: 1; min-width: 200px; }
+        .table-responsive { overflow-x: auto; margin-bottom: 25px; }
+        .data-table { width: 100%; border-collapse: collapse; background: #151515; border: 1px solid #262626; border-radius: 6px; }
+        .data-table th, .data-table td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #222; font-size: 14px; }
+        .data-table th { background: #1a1a1a; color: #d4af37; font-weight: 700; }
+        .data-table tr:hover { background: #1c1c1c; }
+        footer { background: #111; border-top: 1px solid #222; text-align: center; padding: 20px; color: #666; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">UHL <span>ARCHIVE</span></div>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="players.html" class="active">Гравці</a>
+            <a href="teams.html">Команди</a>
+            <a href="seasons.html">Сезони</a>
+            <a href="regions.html">Кубок Регіонів</a>
+            <a href="transfers.html">Трансфери</a>
+            <a href="events.html">Події та Рекорди</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-header">
+            <h1>⚽ База Гравців UHL (335 гравців)</h1>
+            <p style="color: #888;">Статистика голів, асистів та сухих таймів за всі 8 сезонів</p>
+        </div>
+
+        <div class="controls-bar">
+            <input type="text" id="player-search" placeholder="🔍 Пошук гравця за нікнеймом..." oninput="filterPlayers()">
+            <select id="sort-select" onchange="filterPlayers()">
+                <option value="goals">Сортувати: Голи ⚽</option>
+                <option value="assists">Сортувати: Асисти 🎯</option>
+                <option value="cs">Сортувати: Сухі тайми 🧤</option>
+            </select>
+        </div>
+
+        <div class="table-responsive">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Гравець</th>
+                        <th>Остання команда</th>
+                        <th>Голи</th>
+                        <th>Асисти</th>
+                        <th>Сухі тайми</th>
+                    </tr>
+                </thead>
+                <tbody id="players-list">
+                    <!-- Завантажується автоматично JS нижче -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 UHL Archive. Усі права захищено.</p>
+    </footer>
+
+    <script>
+        const initialPlayers = [
+            { name: "Agbonlahor 11", team: "4 раки і толяс", goals: 745, assists: 354, cs: 0 },
+            { name: "tolyasik", team: "4 раки і толяс", goals: 556, assists: 357, cs: 0 },
+            { name: "Din", team: "Мрія", goals: 283, assists: 159, cs: 0 },
+            { name: "gr0nback", team: "DREAMCATCHER", goals: 268, assists: 116, cs: 0 },
+            { name: "mali", team: "ФК Уєбани", goals: 222, assists: 174, cs: 0 },
+            { name: "Klipcrop", team: "COCONUT", goals: 185, assists: 105, cs: 0 },
+            { name: "cancer", team: "COCONUT", goals: 183, assists: 95, cs: 1 },
+            { name: "Wertuhan", team: "Мрія", goals: 161, assists: 84, cs: 0 },
+            { name: "^aMp^", team: "SHULC RS", goals: 159, assists: 49, cs: 0 },
+            { name: "Mr.Lipa", team: "Butterflies", goals: 152, assists: 199, cs: 1 },
+            { name: "Amane Missa", team: "Бандеравскіє Бєси", goals: 143, assists: 165, cs: 6 },
+            { name: "iks", team: "Freedom", goals: 142, assists: 65, cs: 0 },
+            { name: "УАрик", team: "4 раки і толяс", goals: 140, assists: 203, cs: 13 },
+            { name: "Psychocainë", team: "Вільний агент", goals: 137, assists: 39, cs: 0 },
+            { name: "Kondak", team: "Вільний агент", goals: 136, assists: 74, cs: 0 }
+        ];
+
+        function filterPlayers() {
+            const q = document.getElementById('player-search').value.toLowerCase();
+            const sortBy = document.getElementById('sort-select').value;
+
+            let list = initialPlayers.filter(p => p.name.toLowerCase().includes(q));
+            list.sort((a, b) => b[sortBy] - a[sortBy]);
+
+            document.getElementById('players-list').innerHTML = list.map((p, i) => `
+                <tr>
+                    <td>${i + 1}</td>
+                    <td><strong>${p.name}</strong></td>
+                    <td style="color:#888;">${p.team}</td>
+                    <td style="color:#d4af37; font-weight:bold;">${p.goals}</td>
+                    <td>${p.assists}</td>
+                    <td>${p.cs}</td>
+                </tr>
+            `).join('');
+        }
+
+        filterPlayers();
+    </script>
+</body>
+</html>

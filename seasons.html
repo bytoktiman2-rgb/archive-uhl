@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHL ARCHIVE | Сезони та Турнірні Таблиці</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background-color: #0a0a0a; color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6; display: flex; flex-direction: column; min-height: 100vh;
+        }
+        .navbar {
+            background: #121212; border-bottom: 1px solid #222; padding: 15px 30px;
+            display: flex; justify-content: space-between; align-items: center;
+            position: sticky; top: 0; z-index: 100;
+        }
+        .navbar .logo { font-size: 20px; font-weight: 800; color: #fff; }
+        .navbar .logo span { color: #d4af37; }
+        .navbar nav { display: flex; gap: 12px; }
+        .navbar nav a {
+            color: #aaa; text-decoration: none; font-size: 14px; font-weight: 600;
+            padding: 6px 12px; border-radius: 4px; transition: 0.2s;
+        }
+        .navbar nav a:hover, .navbar nav a.active { color: #d4af37; background: #1a1a1a; }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 30px 20px; flex: 1; width: 100%; }
+        .page-header { margin-bottom: 25px; }
+        .page-header h1 { font-size: 28px; color: #fff; margin-bottom: 5px; }
+
+        .filter-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 25px; }
+        .tab-btn {
+            background: #151515; color: #aaa; border: 1px solid #262626; padding: 8px 16px;
+            border-radius: 4px; cursor: pointer; font-weight: 600; transition: 0.2s;
+        }
+        .tab-btn:hover, .tab-btn.active { background: #d4af37; color: #000; border-color: #d4af37; }
+
+        .table-responsive { overflow-x: auto; margin-bottom: 25px; }
+        .data-table { width: 100%; border-collapse: collapse; background: #151515; border: 1px solid #262626; border-radius: 6px; }
+        .data-table th, .data-table td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #222; font-size: 14px; }
+        .data-table th { background: #1a1a1a; color: #d4af37; font-weight: 700; }
+        .data-table tr:hover { background: #1c1c1c; }
+
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; }
+        .card { background: #151515; border: 1px solid #262626; border-radius: 6px; padding: 20px; }
+
+        footer { background: #111; border-top: 1px solid #222; text-align: center; padding: 20px; color: #666; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">UHL <span>ARCHIVE</span></div>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="players.html">Гравці</a>
+            <a href="teams.html">Команди</a>
+            <a href="seasons.html" class="active">Сезони</a>
+            <a href="regions.html">Кубок Регіонів</a>
+            <a href="transfers.html">Трансфери</a>
+            <a href="events.html">Події та Рекорди</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-header">
+            <h1>🏆 Архів Сезонів УХЛ (1–8 Сезони)</h1>
+            <p style="color: #888;">Турнірні таблиці, володарі Кубка та індивідуальні нагороди</p>
+        </div>
+
+        <div class="filter-tabs" id="season-selector">
+            <button class="tab-btn active" onclick="showSeason('8', this)">Сезон 8</button>
+            <button class="tab-btn" onclick="showSeason('7', this)">Сезон 7</button>
+            <button class="tab-btn" onclick="showSeason('6', this)">Сезон 6</button>
+            <button class="tab-btn" onclick="showSeason('5', this)">Сезон 5</button>
+            <button class="tab-btn" onclick="showSeason('4', this)">Сезон 4</button>
+            <button class="tab-btn" onclick="showSeason('3', this)">Сезон 3</button>
+            <button class="tab-btn" onclick="showSeason('2', this)">Сезон 2</button>
+            <button class="tab-btn" onclick="showSeason('1', this)">Сезон 1</button>
+        </div>
+
+        <div id="season-details-view">
+            <!-- Вміст генерується через JS нижче -->
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 UHL Archive. Усі права захищено.</p>
+    </footer>
+
+    <script>
+        const seasonsFull = {
+            "8": { champ: "4 раки і толяс", cup: "sim 23", scorer: "Agbonlahor 11 (88 голів)", teams: [
+                { name: "4 раки і толяс", status: "🏆 Чемпіон України" },
+                { name: "Sало Team", status: "🥈 Срібний призер" },
+                { name: "АГОВ TEAM", status: "🥉 Бронзовий призер" },
+                { name: "sim 23", status: "🏆 Володар Кубка УХЛ" },
+                { name: "Курочки", status: "1/2 фіналу Кубка" },
+                { name: "Жмеринка Юнайтед", status: "1/4 фіналу Кубка" },
+                { name: "ХК ТРЮКІ", status: "1/2 фіналу Кубка" },
+                { name: "Okay Team", status: "1/4 фіналу Кубка" },
+                { name: "Мрія", status: "Учасник Вищої ліги" },
+                { name: "Ratas", status: "Учасник Вищої ліги" }
+            ]},
+            "7": { champ: "4 раки і толяс", cup: "Team Slaves", scorer: "Agbonlahor 11 (82 голи)", teams: [
+                { name: "4 раки і толяс", status: "🏆 Чемпіон України" },
+                { name: "Team Slaves", status: "🏆 Володар Кубка УХЛ" },
+                { name: "Sало Team", status: "🥉 3 місце" },
+                { name: "Seluki", status: "4 місце" },
+                { name: "Ratas", status: "5 місце" },
+                { name: "Мрія", status: "6 місце" },
+                { name: "Coconut", status: "7 місце" }
+            ]},
+            "6": { champ: "4 раки і толяс", cup: "4 раки і толяс", scorer: "Agbonlahor 11 (154 голів)", teams: [
+                { name: "4 раки і толяс", status: "🏆 Золотий дубль (Чемпіон + Кубок)" },
+                { name: "Team Slaves", status: "🥈 2 місце" },
+                { name: "Warriors", status: "🥉 3 місце" },
+                { name: "Sало Team", status: "🥈 Фіналіст Кубка" },
+                { name: "Ratas", status: "5 місце" }
+            ]},
+            "5": { champ: "Big Dick Club", cup: "Big Dick Club", scorer: "Agbonlahor 11 (87 голів)", teams: [
+                { name: "Big Dick Club", status: "🏆 Золотий дубль (Чемпіон + Кубок)" },
+                { name: "4 раки і толяс", status: "🥈 2 місце" },
+                { name: "Butterflies", status: "🥉 3 місце" },
+                { name: "Пісочниця", status: "4 місце" }
+            ]},
+            "4": { champ: "4 раки і толяс", cup: "Мрія", scorer: "cancer (115 голів)", teams: [
+                { name: "4 раки і толяс", status: "🏆 Чемпіон України" },
+                { name: "Мрія", status: "🏆 Володар Кубка УХЛ" },
+                { name: "Butterflies", status: "🥉 3 місце" },
+                { name: "Seluki", status: "4 місце" }
+            ]},
+            "3": { champ: "4 раки і толяс", cup: "4 раки і толяс", scorer: "Agbonlahor 11 (114 голів)", teams: [
+                { name: "4 раки і толяс", status: "🏆 Золотий дубль" },
+                { name: "Мрія", status: "🥈 2 місце" },
+                { name: "Butterflies", status: "🥉 3 місце" }
+            ]},
+            "2": { champ: "4 раки і толяс", cup: "4 раки і толяс", scorer: "^aMp^ (115 голів)", teams: [
+                { name: "4 раки і толяс", status: "🏆 Золотий дубль" },
+                { name: "Мрія", status: "🥈 2 місце" },
+                { name: "ФК Уєбани", status: "🥉 3 місце" }
+            ]},
+            "1": { champ: "Big Dick Club", cup: "Big Dick Club", scorer: "iks (117 голів)", teams: [
+                { name: "Big Dick Club", status: "🏆 Перший Чемпіон УХЛ" },
+                { name: "Bulls", status: "🥈 2 місце" },
+                { name: "Team Slaves", status: "🥉 3 місце" }
+            ]}
+        };
+
+        function showSeason(sNum, btn) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            if (btn) btn.classList.add('active');
+
+            const s = seasonsFull[sNum];
+            document.getElementById('season-details-view').innerHTML = `
+                <div class="card-grid" style="margin-bottom:20px;">
+                    <div class="card">
+                        <h3 style="color:#d4af37;">🥇 Чемпіон</h3>
+                        <p style="font-size:18px; font-weight:bold;">${s.champ}</p>
+                    </div>
+                    <div class="card">
+                        <h3 style="color:#d4af37;">🏆 Володар Кубка</h3>
+                        <p style="font-size:18px; font-weight:bold;">${s.cup}</p>
+                    </div>
+                    <div class="card">
+                        <h3 style="color:#d4af37;">⚽ Найкращий бомбардир</h3>
+                        <p style="font-size:18px; font-weight:bold;">${s.scorer}</p>
+                    </div>
+                </div>
+
+                <h3>📊 Турнірна Таблиця ${sNum} Сезону</h3>
+                <div class="table-responsive" style="margin-top:10px;">
+                    <table class="data-table">
+                        <thead><tr><th>#</th><th>Команда</th><th>Статус / Результати</th></tr></thead>
+                        <tbody>
+                            ${s.teams.map((t, i) => `<tr><td>${i+1}</td><td><strong>${t.name}</strong></td><td>${t.status}</td></tr>`).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        }
+
+        // Завантаження 8 сезону за замовчуванням
+        showSeason('8');
+    </script>
+</body>
+</html>

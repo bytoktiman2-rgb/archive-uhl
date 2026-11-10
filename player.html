@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHL ARCHIVE | Профіль гравця</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">UHL <span>ARCHIVE</span></div>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="players.html">Гравці</a>
+            <a href="teams.html">Команди</a>
+            <a href="regions.html">Кубок Регіонів</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="profile-header">
+            <div class="avatar" id="player-avatar">?</div>
+            <div class="profile-info">
+                <h1 id="player-name">Завантаження...</h1>
+                <p class="subtitle" id="player-status">Поточна команда: ...</p>
+            </div>
+        </div>
+
+        <section class="stats-grid">
+            <div class="stat-box">
+                <h3>Голи</h3>
+                <p id="stat-goals">-</p>
+            </div>
+            <div class="stat-box">
+                <h3>Асисти</h3>
+                <p id="stat-assists">-</p>
+            </div>
+            <div class="stat-box">
+                <h3>Сухі тайми (CS)</h3>
+                <p id="stat-cs">-</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Історія виступів за сезонами</h2>
+            <ul id="team-history" class="history-list">
+                <!-- Заповнюється через JS -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 UHL Archive. Усі права захищено.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

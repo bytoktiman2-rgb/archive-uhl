@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHL ARCHIVE | Розумний Конвертер 8 Сезонів</title>
+    <style>
+        body { background: #0a0a0a; color: #e0e0e0; font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+        .card { background: #151515; padding: 30px; border: 1px solid #2a2a2a; border-radius: 8px; width: 100%; max-width: 600px; text-align: center; box-sizing: border-box; }
+        h1 { color: #d4af37; margin-bottom: 10px; font-size: 24px; }
+        .drop-zone { border: 2px dashed #d4af37; padding: 25px; border-radius: 6px; background: #111; margin: 20px 0; cursor: pointer; transition: 0.2s; }
+        .drop-zone:hover { background: #1a1a1a; border-color: #f1c40f; }
+        .file-list { text-align: left; background: #0a0a0a; border: 1px solid #222; border-radius: 4px; max-height: 180px; overflow-y: auto; padding: 10px; margin-bottom: 20px; font-size: 13px; }
+        .file-item { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid #1a1a1a; }
+        button { background: #d4af37; color: #000; border: none; padding: 12px 20px; font-size: 15px; cursor: pointer; font-weight: bold; border-radius: 4px; width: 100%; }
+        button:hover { background: #f1c40f; }
+        #log { margin-top: 20px; color: #888; font-size: 13px; white-space: pre-wrap; text-align: left; max-height: 180px; overflow-y: auto; }
+    </style>
+    <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="card">
+        <h1>Конвертер UHL (8 Сезонів Статистики)</h1>
+        <p style="color: #888; font-size: 14px;">Зчитує дані командних статистик та файлів голосувань 1–8 сезонів.</p>
+
+        <div class="drop-zone" onclick="document.getElementById('fileInput').click()" id="dropZone">
+            📂 Натисніть або перетягніть файли Excel (будь-яку кількість)
+            <input type="file" id="fileInput" multiple accept=".xlsx, .xls" style="display:none;" onchange="addFiles(this.files)">
+        </div>
+
+        <div style="text-align:left; margin-bottom: 5px; font-size: 13px; color: #aaa;">
+            Обрані файли: <strong id="fileCount" style="color: #d4af37;">0</strong>
+        </div>
+        <div class="file-list" id="fileListContainer">
+            <div style="color: #555; text-align:center;">Файли ще не додано</div>
+        </div>
+        
+        <button onclick="processAllFiles()">Згенерувати повну базу 8 сезонів (JSON)</button>
+        <div id="log"></div>
+    </div>
+
+    <script>
+        let accumulatedFiles = [];
+
+        function addFiles(files) {
+            for (let f of files) {
+                if (!accumulatedFiles.some(e => e.name === f.name && e.size === f.size)) accumulatedFiles.push(f);
+            }
+            renderFileList();
+        }
+
+        function renderFileList() {
+            const container = document.getElementById('fileListContainer');
+            document.getElementById('fileCount').innerText = accumulatedFiles.length;
+            if (accumulatedFiles.length === 0) {
+                container.innerHTML = '<div style="color: #555; text-align:center;">Файли ще не додано</div>';
+                return;
+            }
+            container.innerHTML = accumulatedFiles.map((f, i) => `<div class="file-item"><span>📄 ${f.name}</span></div>`).join('');
+        }
+
+        function isValidPlayerName(name) {
+            if (!name || typeof name !== 'string') return false;
+            const str = name.trim();
+            if (!str) return false;
+            const lower = str.toLowerCase();
+            const junk = ['місце', 'назва', 'результати', 'гравець', 'команда', 'кількість балів', 'чемпіонат:', 'кубок:', 'перша ліга', 'вища ліга', 'тест', 'сума', 'статистика', 'загальна', 'unnamed', '00:00:00'];
+            for (let kw of junk) if (lower.includes(kw)) return false;
+            if (/^\d+(\.\d+)?$/.test(str) && !['111', '69', '10', '50'].includes(str)) return false;
+            if (/^\d{4}-\d{2}-\d{2}/.test(str)) return false;
+            return true;
+        }
+
+        async function processAllFiles() {
+            const log = document.getElementById('log');
+            if (accumulatedFiles.length === 0) { log.innerText = "❌ Будь ласка, додайте файли Excel."; return; }
+
+            log.innerText = `⏳ Зчитування та обробка всіх 8 сезонів...\n`;
+            const playersDb = {};
+            let pCounter = 1;
+
+            function addPlayerStat(name, g=0, a=0, cs=0, season="", team="") {
+                const clean = name.trim();
+                let pid = null;
+                for (let [k, v] of Object.entries(playersDb)) {
+                    if (v.name.toLowerCase() === clean.toLowerCase()) { pid = k; break; }
+                }
+                if (!pid) {
+                    pid = 'p' + pCounter++;
+                    playersDb[pid] = { name: clean, current_team: team || "", stats: { matches: 0, goals: 0, assists: 0, cs: 0 }, history: [] };
+                }
+                playersDb[pid].stats.goals += parseInt(g) || 0;
+                playersDb[pid].stats.assists += parseInt(a) || 0;
+                playersDb[pid].stats.cs += parseInt(cs) || 0;
+                if (team && !playersDb[pid].current_team) playersDb[pid].current_team = team;
+                if (season) {
+                    const h = team ? `${season}: ${team}` : season;
+                    if (!playersDb[pid].history.includes(h)) playersDb[pid].history.push(h);
+                }
+            }
+
+            for (const file of accumulatedFiles) {
+                if (file.name.includes("інформація")) continue;
+                log.innerText += `📂 Обробка: ${file.name}...\n`;
+                const buffer = await file.arrayBuffer();
+                const workbook = XLSX.read(buffer);
+
+                let seasonNum = "1";
+                const match = file.name.match(/\d+/);
+                if (match) seasonNum = match[0];
+
+                const seasonLabel = `Сезон ${seasonNum}`;
+
+                workbook.SheetNames.forEach(sheetName => {
+                    if (['Загальні результати голосування', 'Загальна', 'Голи', 'Асисти', 'Сухі тайми'].includes(sheetName)) return;
+
+                    const sheet = workbook.Sheets[sheetName];
+                    const data = XLSX.utils.sheet_to_json(sheet, {header: 1});
+
+                    data.forEach(row => {
+                        if (!row) return;
+
+                        // Зчитування стандартних статистичних листів (UHL 2, UHL 3)
+                        if (row[2] && isValidPlayerName(row[2].toString())) {
+                            const pname = row[2].toString();
+                            const g = parseInt(row[5] || row[6]) || 0;
+                            const a = parseInt(row[8] || row[10]) || 0;
+                            const cs = parseInt(row[11] || row[14]) || 0;
+                            if (g || a || cs) addPlayerStat(pname, g, a, cs, seasonLabel, sheetName);
+                        }
+
+                        // Зчитування з листів голосувань (Сезони 4-8, ліва таблиця)
+                        if (row[3] && isValidPlayerName(row[3].toString())) {
+                            const pname = row[3].toString();
+                            const g = parseInt(row[4]) || 0;
+                            const a = parseInt(row[5]) || 0;
+                            const cs = parseInt(row[6]) || 0;
+                            if (g || a || cs) addPlayerStat(pname, g, a, cs, seasonLabel);
+                        }
+
+                        // Зчитування з листів голосувань (Перша ліга, права таблиця)
+                        if (row[17] && isValidPlayerName(row[17].toString())) {
+                            const pname = row[17].toString();
+                            const g = parseInt(row[18]) || 0;
+                            const a = parseInt(row[19]) || 0;
+                            const cs = parseInt(row[20]) || 0;
+                            if (g || a || cs) addPlayerStat(pname, g, a, cs, seasonLabel);
+                        }
+                    });
+                });
+            }
+
+            const jsonString = JSON.stringify({ players: playersDb }, null, 2);
+            const blob = new Blob([jsonString], { type: "application/json" });
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = "database.json";
+            link.click();
+
+            log.innerText += `\n✅ Успішно! Згенеровано базу даних 8 сезонів (${Object.keys(playersDb).length} гравців).\nЗавантажується database.json...`;
+        }
+    </script>
+</body>
+</html>

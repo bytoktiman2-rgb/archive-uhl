@@ -1,0 +1,4671 @@
+{
+  "players": {
+    "p1": {
+      "name": "iks",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 142,
+        "assists": 65,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Freedom"
+      ]
+    },
+    "p2": {
+      "name": "kylian",
+      "current_team": "SHULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 101,
+        "assists": 110,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: SHULC RS",
+        "Сезон 3: SHULC RS"
+      ]
+    },
+    "p3": {
+      "name": "ChPokvPuPoK",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 17,
+        "cs": 22
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: ФК Уєбани"
+      ]
+    },
+    "p4": {
+      "name": "mali",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 222,
+        "assists": 174,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: ФК Уєбани",
+        "Сезон 3: ФК Уєбани",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p5": {
+      "name": "Solence",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 26,
+        "assists": 46,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p6": {
+      "name": "111",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 42,
+        "assists": 87,
+        "cs": 21
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: ФК Уєбани",
+        "Сезон 3: Мрія",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p7": {
+      "name": "trowlll",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 52,
+        "assists": 25,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p8": {
+      "name": "Kjamb",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 72,
+        "cs": 15
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p9": {
+      "name": "69",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 45,
+        "assists": 32,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p10": {
+      "name": "elox.",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 63,
+        "assists": 82,
+        "cs": 8
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Freedom"
+      ]
+    },
+    "p11": {
+      "name": "tolyasik",
+      "current_team": "4 раки і толяс",
+      "stats": {
+        "matches": 0,
+        "goals": 556,
+        "assists": 357,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 3: 4 раки і толяс",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p12": {
+      "name": "УАрик",
+      "current_team": "4 раки і толяс",
+      "stats": {
+        "matches": 0,
+        "goals": 140,
+        "assists": 203,
+        "cs": 13
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: 4 раки і толяс",
+        "Сезон 3: COCONUT",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p13": {
+      "name": "adriano",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 19,
+        "assists": 34,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p14": {
+      "name": "FACE",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p15": {
+      "name": "qn",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 116,
+        "assists": 61,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Freedom",
+        "Сезон 3: SHULC RS"
+      ]
+    },
+    "p16": {
+      "name": "mArs",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 10,
+        "assists": 7,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p17": {
+      "name": "Radu",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 35,
+        "assists": 34,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: ФК Уєбани",
+        "Сезон 3: SHULC RS"
+      ]
+    },
+    "p18": {
+      "name": "drak",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 9,
+        "assists": 9,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p19": {
+      "name": "Kor",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 26,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p20": {
+      "name": "Amane Missa",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 143,
+        "assists": 165,
+        "cs": 6
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Бандеравскіє Бєси",
+        "Сезон 3: Gachi Gang",
+        "Сезон 4",
+        "Сезон 5"
+      ]
+    },
+    "p21": {
+      "name": "FR)Allister",
+      "current_team": "SHULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 5,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: SHULC RS"
+      ]
+    },
+    "p22": {
+      "name": "Agbonlahor 11",
+      "current_team": "4 раки і толяс",
+      "stats": {
+        "matches": 0,
+        "goals": 745,
+        "assists": 354,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: 4 раки і толяс",
+        "Сезон 3: 4 раки і толяс",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p23": {
+      "name": "Фоден",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 0,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p24": {
+      "name": "hoW",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 100,
+        "assists": 144,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Freedom",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p25": {
+      "name": "DED",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 2,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p26": {
+      "name": "bitterSweet",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 62,
+        "assists": 25,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 4"
+      ]
+    },
+    "p27": {
+      "name": "Danek",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p28": {
+      "name": "Aiowie",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 19,
+        "assists": 8,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p29": {
+      "name": "Folk",
+      "current_team": "Мрія",
+      "stats": {
+        "matches": 0,
+        "goals": 21,
+        "assists": 28,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Мрія",
+        "Сезон 3: Kirka"
+      ]
+    },
+    "p30": {
+      "name": "wxzcxd",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 2,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Freedom"
+      ]
+    },
+    "p31": {
+      "name": "Don Bass",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 30,
+        "assists": 42,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: ФК Уєбани"
+      ]
+    },
+    "p32": {
+      "name": "Xer Chlen",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 20,
+        "assists": 21,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Бандеравскіє Бєси",
+        "Сезон 3: Вільні агенти",
+        "Сезон 5"
+      ]
+    },
+    "p33": {
+      "name": "Uniwersalny",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 16,
+        "assists": 16,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: COCONUT"
+      ]
+    },
+    "p34": {
+      "name": "lfc",
+      "current_team": "4 раки і толяс",
+      "stats": {
+        "matches": 0,
+        "goals": 24,
+        "assists": 83,
+        "cs": 32
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: 4 раки і толяс",
+        "Сезон 3: Мрія",
+        "Сезон 4",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p35": {
+      "name": "arsenxiks",
+      "current_team": "Nice Try",
+      "stats": {
+        "matches": 0,
+        "goals": 54,
+        "assists": 26,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Nice Try",
+        "Сезон 3: Вільні агенти",
+        "Сезон 4"
+      ]
+    },
+    "p36": {
+      "name": "Sou.",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 61,
+        "assists": 44,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p37": {
+      "name": "Савитар",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p38": {
+      "name": "ParMa",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 16,
+        "assists": 8,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p39": {
+      "name": "Tw1x",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 12,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p40": {
+      "name": "Kaneki Ken.",
+      "current_team": "Nice Try",
+      "stats": {
+        "matches": 0,
+        "goals": 89,
+        "assists": 42,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Nice Try",
+        "Сезон 3: Вільні агенти",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p41": {
+      "name": "Din",
+      "current_team": "Мрія",
+      "stats": {
+        "matches": 0,
+        "goals": 283,
+        "assists": 159,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Мрія",
+        "Сезон 3: Мрія",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p42": {
+      "name": "Dorfix",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 15,
+        "assists": 7,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p43": {
+      "name": "Kiw",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 123,
+        "assists": 76,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p44": {
+      "name": "monev.",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 10,
+        "assists": 10,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p45": {
+      "name": "l1ch",
+      "current_team": "Butterflies",
+      "stats": {
+        "matches": 0,
+        "goals": 26,
+        "assists": 18,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Butterflies"
+      ]
+    },
+    "p46": {
+      "name": "hertz",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 88,
+        "assists": 78,
+        "cs": 17
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Бандеравскіє Бєси",
+        "Сезон 3: Gachi Gang",
+        "Сезон 4",
+        "Сезон 7"
+      ]
+    },
+    "p47": {
+      "name": "Rasputin",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 4,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p48": {
+      "name": "Можіт",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 121,
+        "assists": 84,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p49": {
+      "name": "шиммер",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 12,
+        "assists": 8,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p50": {
+      "name": "drakula",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 8,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p51": {
+      "name": "Klipcrop",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 185,
+        "assists": 105,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: COCONUT",
+        "Сезон 3: LOLIII ANIME",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p52": {
+      "name": "Mr.Lipa",
+      "current_team": "Butterflies",
+      "stats": {
+        "matches": 0,
+        "goals": 152,
+        "assists": 199,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Butterflies",
+        "Сезон 3: Gachi Gang",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p53": {
+      "name": "konfetka",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 7,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p54": {
+      "name": "Legend",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p55": {
+      "name": "mtzth",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 128,
+        "assists": 78,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: COCONUT",
+        "Сезон 3: Kirka",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p56": {
+      "name": "Pharaoh",
+      "current_team": "SHPULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 7,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: SHPULC RS"
+      ]
+    },
+    "p57": {
+      "name": "floyse{fake}",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 22,
+        "assists": 20,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: KINGS",
+        "Сезон 3: KINGS"
+      ]
+    },
+    "p58": {
+      "name": "Vlynleyno",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 5,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p59": {
+      "name": "Xhaka",
+      "current_team": "Nice Try",
+      "stats": {
+        "matches": 0,
+        "goals": 9,
+        "assists": 4,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Nice Try"
+      ]
+    },
+    "p60": {
+      "name": "fade_",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 5,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p61": {
+      "name": "Shepard",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 5,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p62": {
+      "name": "Dastinho",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 5,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p63": {
+      "name": "kris",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p64": {
+      "name": "fade",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p65": {
+      "name": "Snack",
+      "current_team": "SHULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 26,
+        "assists": 24,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: SHULC RS"
+      ]
+    },
+    "p66": {
+      "name": "кіт",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 4,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p67": {
+      "name": "ExS1nEeeZ",
+      "current_team": "SHPULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 10,
+        "assists": 15,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: SHPULC RS",
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p68": {
+      "name": "g.....",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p69": {
+      "name": "Чурка 1",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p70": {
+      "name": "murphy",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p71": {
+      "name": "Швец.",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p72": {
+      "name": "lopo",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p73": {
+      "name": "SinTolika",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p74": {
+      "name": "karry <3",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p75": {
+      "name": "Зачем",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p76": {
+      "name": "caskader",
+      "current_team": "Butterflies",
+      "stats": {
+        "matches": 0,
+        "goals": 82,
+        "assists": 31,
+        "cs": 5
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Butterflies",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p77": {
+      "name": "wizout",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 58,
+        "assists": 59,
+        "cs": 30
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Бандеравскіє Бєси",
+        "Сезон 3: Бєси",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p78": {
+      "name": "Mobley",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 28,
+        "assists": 29,
+        "cs": 21
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: ФК Уєбани",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p79": {
+      "name": "Inzaghi",
+      "current_team": "Boeing",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Boeing"
+      ]
+    },
+    "p80": {
+      "name": "marsel",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p81": {
+      "name": "donhay",
+      "current_team": "DREAMCATCHER",
+      "stats": {
+        "matches": 0,
+        "goals": 53,
+        "assists": 31,
+        "cs": 19
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: DREAMCATCHER",
+        "Сезон 3: DREAMCATCHER",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p82": {
+      "name": "pdml",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p83": {
+      "name": "Wheeeee",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p84": {
+      "name": "oleje",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 8,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Бандеравскіє Бєси"
+      ]
+    },
+    "p85": {
+      "name": "бун",
+      "current_team": "Мрія",
+      "stats": {
+        "matches": 0,
+        "goals": 27,
+        "assists": 15,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Мрія",
+        "Сезон 3: Мрія",
+        "Сезон 4"
+      ]
+    },
+    "p86": {
+      "name": "kazakh style",
+      "current_team": "Butterflies",
+      "stats": {
+        "matches": 0,
+        "goals": 15,
+        "assists": 8,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Butterflies"
+      ]
+    },
+    "p87": {
+      "name": "koko",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p88": {
+      "name": "RAK-original",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p89": {
+      "name": "Makachu UA",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p90": {
+      "name": "bababoy",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 33,
+        "assists": 14,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 5",
+        "Сезон 8"
+      ]
+    },
+    "p91": {
+      "name": "аянами рей",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Kirka"
+      ]
+    },
+    "p92": {
+      "name": "Pavlozaza",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p93": {
+      "name": "пирамидка",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p94": {
+      "name": "Serek Orzelek",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p95": {
+      "name": "gr0nback",
+      "current_team": "DREAMCATCHER",
+      "stats": {
+        "matches": 0,
+        "goals": 268,
+        "assists": 116,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: DREAMCATCHER",
+        "Сезон 3: DREAMCATCHER",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p96": {
+      "name": "Goki",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p97": {
+      "name": "Gosha Young",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p98": {
+      "name": "ХуТоРоК",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 14,
+        "assists": 10,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 3: Kirka"
+      ]
+    },
+    "p99": {
+      "name": "ГНОМ РЫГАЛДУ",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p100": {
+      "name": "https",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p101": {
+      "name": "Ted Lasso",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p102": {
+      "name": "YmA",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p103": {
+      "name": "gh",
+      "current_team": "Boeing",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Boeing"
+      ]
+    },
+    "p104": {
+      "name": "-d0жurala",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p105": {
+      "name": "castle",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 4,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 3: Kirka"
+      ]
+    },
+    "p106": {
+      "name": "Сирник",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 52,
+        "assists": 22,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 7"
+      ]
+    },
+    "p107": {
+      "name": "JiU",
+      "current_team": "Nice Try",
+      "stats": {
+        "matches": 0,
+        "goals": 68,
+        "assists": 90,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Nice Try",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p108": {
+      "name": "Liberty",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 22,
+        "assists": 13,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 6"
+      ]
+    },
+    "p109": {
+      "name": "Bail",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 1"
+      ]
+    },
+    "p110": {
+      "name": "Marlos",
+      "current_team": "Мрія",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 8,
+        "cs": 31
+      },
+      "history": [
+        "Сезон 1",
+        "Сезон 2: Мрія",
+        "Сезон 3: DREAMCATCHER",
+        "Сезон 4"
+      ]
+    },
+    "p111": {
+      "name": "koca",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 50,
+        "assists": 33,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Freedom",
+        "Сезон 5"
+      ]
+    },
+    "p112": {
+      "name": "ХyToPoK",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 8,
+        "assists": 7,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Freedom"
+      ]
+    },
+    "p113": {
+      "name": "Burlik",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 12,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Freedom"
+      ]
+    },
+    "p114": {
+      "name": "2023-10-14 00:00:00",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 3,
+        "cs": 7
+      },
+      "history": [
+        "Сезон 2: Freedom"
+      ]
+    },
+    "p115": {
+      "name": "omgg",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 0,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 2: Freedom"
+      ]
+    },
+    "p116": {
+      "name": "emok1d",
+      "current_team": "Freedom",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 2: Freedom"
+      ]
+    },
+    "p117": {
+      "name": "addi3",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 85,
+        "assists": 42,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: ФК Уєбани",
+        "Сезон 3: ФК Уєбани"
+      ]
+    },
+    "p118": {
+      "name": "Dorfixz",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 19,
+        "assists": 37,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: ФК Уєбани",
+        "Сезон 3: DREAMCATCHER",
+        "Сезон 4",
+        "Сезон 5"
+      ]
+    },
+    "p119": {
+      "name": "tolya or sik?",
+      "current_team": "4 раки і толяс",
+      "stats": {
+        "matches": 0,
+        "goals": 41,
+        "assists": 30,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 2: 4 раки і толяс"
+      ]
+    },
+    "p120": {
+      "name": "rak arab 4",
+      "current_team": "4 раки і толяс",
+      "stats": {
+        "matches": 0,
+        "goals": 12,
+        "assists": 17,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: 4 раки і толяс"
+      ]
+    },
+    "p121": {
+      "name": "^aMp^",
+      "current_team": "SHULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 159,
+        "assists": 49,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: SHULC RS",
+        "Сезон 3: SHULC RS"
+      ]
+    },
+    "p122": {
+      "name": "while",
+      "current_team": "SHULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 6,
+        "cs": 11
+      },
+      "history": [
+        "Сезон 2: SHULC RS"
+      ]
+    },
+    "p123": {
+      "name": "modric",
+      "current_team": "SHULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 8,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: SHULC RS",
+        "Сезон 3: SHULC RS"
+      ]
+    },
+    "p124": {
+      "name": "димун",
+      "current_team": "Nice Try",
+      "stats": {
+        "matches": 0,
+        "goals": 45,
+        "assists": 28,
+        "cs": 12
+      },
+      "history": [
+        "Сезон 2: Nice Try",
+        "Сезон 3: Kirka",
+        "Сезон 4",
+        "Сезон 5"
+      ]
+    },
+    "p125": {
+      "name": "Шифт",
+      "current_team": "Nice Try",
+      "stats": {
+        "matches": 0,
+        "goals": 10,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Nice Try"
+      ]
+    },
+    "p126": {
+      "name": "daniklopik",
+      "current_team": "Nice Try",
+      "stats": {
+        "matches": 0,
+        "goals": 22,
+        "assists": 19,
+        "cs": 5
+      },
+      "history": [
+        "Сезон 2: Nice Try",
+        "Сезон 3: not today",
+        "Сезон 4"
+      ]
+    },
+    "p127": {
+      "name": "xXx",
+      "current_team": "Nice Try",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 2,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 2: Nice Try"
+      ]
+    },
+    "p128": {
+      "name": "Vlyn",
+      "current_team": "Butterflies",
+      "stats": {
+        "matches": 0,
+        "goals": 40,
+        "assists": 27,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Butterflies"
+      ]
+    },
+    "p129": {
+      "name": "Mr.Enigma",
+      "current_team": "Butterflies",
+      "stats": {
+        "matches": 0,
+        "goals": 52,
+        "assists": 33,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Butterflies",
+        "Сезон 6"
+      ]
+    },
+    "p130": {
+      "name": "Choji",
+      "current_team": "Butterflies",
+      "stats": {
+        "matches": 0,
+        "goals": 23,
+        "assists": 69,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Butterflies",
+        "Сезон 3: Yellow Submarine",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p131": {
+      "name": "frayz",
+      "current_team": "Butterflies",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 12,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Butterflies",
+        "Сезон 3: Butterflies"
+      ]
+    },
+    "p132": {
+      "name": "Scholes",
+      "current_team": "Butterflies",
+      "stats": {
+        "matches": 0,
+        "goals": 9,
+        "assists": 9,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 2: Butterflies",
+        "Сезон 3: not today"
+      ]
+    },
+    "p133": {
+      "name": "cancer",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 183,
+        "assists": 95,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 2: COCONUT",
+        "Сезон 3: COCONUT",
+        "Сезон 4"
+      ]
+    },
+    "p134": {
+      "name": "3oomerq)",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 21,
+        "assists": 11,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: COCONUT"
+      ]
+    },
+    "p135": {
+      "name": "tsukuyomi.",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 11,
+        "assists": 21,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: COCONUT"
+      ]
+    },
+    "p136": {
+      "name": "tekashka",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 21,
+        "assists": 47,
+        "cs": 39
+      },
+      "history": [
+        "Сезон 2: COCONUT",
+        "Сезон 3: COCONUT",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 7"
+      ]
+    },
+    "p137": {
+      "name": "Neymar",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 5,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 2: COCONUT",
+        "Сезон 5"
+      ]
+    },
+    "p138": {
+      "name": "peppniell",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: COCONUT"
+      ]
+    },
+    "p139": {
+      "name": "V4KS",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: COCONUT"
+      ]
+    },
+    "p140": {
+      "name": "lil",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 33,
+        "assists": 13,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Бандеравскіє Бєси",
+        "Сезон 3: Бєси"
+      ]
+    },
+    "p141": {
+      "name": "piano player",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 62,
+        "assists": 43,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Бандеравскіє Бєси",
+        "Сезон 3: Бєси",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p142": {
+      "name": "StarShiny",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 107,
+        "assists": 69,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Бандеравскіє Бєси",
+        "Сезон 3: Бєси",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p143": {
+      "name": "Nox",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Бандеравскіє Бєси",
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p144": {
+      "name": "Chamz",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Бандеравскіє Бєси"
+      ]
+    },
+    "p145": {
+      "name": "Kasuna",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Бандеравскіє Бєси"
+      ]
+    },
+    "p146": {
+      "name": "tetsu",
+      "current_team": "Бандеравскіє Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Бандеравскіє Бєси"
+      ]
+    },
+    "p147": {
+      "name": "s0beit",
+      "current_team": "Мрія",
+      "stats": {
+        "matches": 0,
+        "goals": 100,
+        "assists": 52,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Мрія",
+        "Сезон 3: Мрія",
+        "Сезон 4",
+        "Сезон 6"
+      ]
+    },
+    "p148": {
+      "name": "b9",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 60,
+        "assists": 30,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: KINGS",
+        "Сезон 5"
+      ]
+    },
+    "p149": {
+      "name": "Shvetsarets",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 9,
+        "assists": 18,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: KINGS"
+      ]
+    },
+    "p150": {
+      "name": "erox",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 16,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: KINGS"
+      ]
+    },
+    "p151": {
+      "name": "Santa",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 4,
+        "cs": 7
+      },
+      "history": [
+        "Сезон 2: KINGS",
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p152": {
+      "name": "корж",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 2,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 2: KINGS"
+      ]
+    },
+    "p153": {
+      "name": "ohboi",
+      "current_team": "SHPULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 38,
+        "assists": 12,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: SHPULC RS"
+      ]
+    },
+    "p154": {
+      "name": "venom.",
+      "current_team": "SHPULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 21,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 2: SHPULC RS",
+        "Сезон 3: COCONUT"
+      ]
+    },
+    "p155": {
+      "name": "Сало",
+      "current_team": "SHPULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 5,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 2: SHPULC RS",
+        "Сезон 8"
+      ]
+    },
+    "p156": {
+      "name": "хаv1to",
+      "current_team": "SHPULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: SHPULC RS"
+      ]
+    },
+    "p157": {
+      "name": "Bazyyka",
+      "current_team": "SHPULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 0,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 2: SHPULC RS"
+      ]
+    },
+    "p158": {
+      "name": "Nittá",
+      "current_team": "SHPULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: SHPULC RS"
+      ]
+    },
+    "p159": {
+      "name": "bruuuhh",
+      "current_team": "SHPULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 44,
+        "assists": 17,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 2: SHPULC RS",
+        "Сезон 3: Yellow Submarine",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p160": {
+      "name": "husakinho",
+      "current_team": "DREAMCATCHER",
+      "stats": {
+        "matches": 0,
+        "goals": 8,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: DREAMCATCHER"
+      ]
+    },
+    "p161": {
+      "name": "sinchiroca",
+      "current_team": "DREAMCATCHER",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 2,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 2: DREAMCATCHER"
+      ]
+    },
+    "p162": {
+      "name": "JABIEN",
+      "current_team": "DREAMCATCHER",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 0,
+        "cs": 4
+      },
+      "history": [
+        "Сезон 2: DREAMCATCHER"
+      ]
+    },
+    "p163": {
+      "name": "Neon",
+      "current_team": "DREAMCATCHER",
+      "stats": {
+        "matches": 0,
+        "goals": 50,
+        "assists": 30,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 2: DREAMCATCHER",
+        "Сезон 3: Yellow Submarine",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p164": {
+      "name": "mishaq",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Kirka"
+      ]
+    },
+    "p165": {
+      "name": "Neo",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Kirka"
+      ]
+    },
+    "p166": {
+      "name": "traktor",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Kirka"
+      ]
+    },
+    "p167": {
+      "name": "Trileon",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Kirka"
+      ]
+    },
+    "p168": {
+      "name": "шкарпетак",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Kirka"
+      ]
+    },
+    "p169": {
+      "name": "ebanutiyTIP",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Kirka"
+      ]
+    },
+    "p170": {
+      "name": "onyx",
+      "current_team": "Boeing",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 5,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Boeing"
+      ]
+    },
+    "p171": {
+      "name": "exxtazzy ♡",
+      "current_team": "Boeing",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Boeing"
+      ]
+    },
+    "p172": {
+      "name": "Sob",
+      "current_team": "Boeing",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Boeing"
+      ]
+    },
+    "p173": {
+      "name": "maxooooonnnn",
+      "current_team": "Boeing",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 2: Boeing"
+      ]
+    },
+    "p174": {
+      "name": "смишнявка",
+      "current_team": "Boeing",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Boeing"
+      ]
+    },
+    "p175": {
+      "name": "Schwarz",
+      "current_team": "Boeing",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Boeing"
+      ]
+    },
+    "p176": {
+      "name": "vpotoke",
+      "current_team": "Boeing",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 2: Boeing"
+      ]
+    },
+    "p177": {
+      "name": "Ebola",
+      "current_team": "4 раки і толяс",
+      "stats": {
+        "matches": 0,
+        "goals": 9,
+        "assists": 23,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: 4 раки і толяс"
+      ]
+    },
+    "p178": {
+      "name": "ik",
+      "current_team": "4 раки і толяс",
+      "stats": {
+        "matches": 0,
+        "goals": 9,
+        "assists": 36,
+        "cs": 42
+      },
+      "history": [
+        "Сезон 3: 4 раки і толяс",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p179": {
+      "name": "saint",
+      "current_team": "4 раки і толяс",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 4,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: 4 раки і толяс"
+      ]
+    },
+    "p180": {
+      "name": "Любитель",
+      "current_team": "Butterflies",
+      "stats": {
+        "matches": 0,
+        "goals": 11,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Butterflies"
+      ]
+    },
+    "p181": {
+      "name": "10",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 31,
+        "assists": 19,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: COCONUT",
+        "Сезон 5"
+      ]
+    },
+    "p182": {
+      "name": "09.04",
+      "current_team": "COCONUT",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: COCONUT"
+      ]
+    },
+    "p183": {
+      "name": "3oomer.",
+      "current_team": "DREAMCATCHER",
+      "stats": {
+        "matches": 0,
+        "goals": 23,
+        "assists": 7,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: DREAMCATCHER"
+      ]
+    },
+    "p184": {
+      "name": "hsk",
+      "current_team": "DREAMCATCHER",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: DREAMCATCHER"
+      ]
+    },
+    "p185": {
+      "name": "кусок стиля",
+      "current_team": "Gachi Gang",
+      "stats": {
+        "matches": 0,
+        "goals": 42,
+        "assists": 28,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Gachi Gang"
+      ]
+    },
+    "p186": {
+      "name": "pro0ch",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 21,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: KINGS",
+        "Сезон 5"
+      ]
+    },
+    "p187": {
+      "name": "tetsuu",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: KINGS"
+      ]
+    },
+    "p188": {
+      "name": "DoDel",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: KINGS"
+      ]
+    },
+    "p189": {
+      "name": "sinch",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 48,
+        "assists": 37,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: KINGS",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p190": {
+      "name": "Igx",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: KINGS"
+      ]
+    },
+    "p191": {
+      "name": "корg",
+      "current_team": "KINGS",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 10,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 3: KINGS",
+        "Сезон 4"
+      ]
+    },
+    "p192": {
+      "name": "FolkSCFarence",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 11,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Kirka"
+      ]
+    },
+    "p193": {
+      "name": "ярик",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 11,
+        "assists": 9,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Kirka"
+      ]
+    },
+    "p194": {
+      "name": "shanks",
+      "current_team": "Kirka",
+      "stats": {
+        "matches": 0,
+        "goals": 35,
+        "assists": 17,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 3: Kirka",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p195": {
+      "name": "aguero",
+      "current_team": "LOLIII ANIME",
+      "stats": {
+        "matches": 0,
+        "goals": 21,
+        "assists": 11,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: LOLIII ANIME"
+      ]
+    },
+    "p196": {
+      "name": "caro",
+      "current_team": "LOLIII ANIME",
+      "stats": {
+        "matches": 0,
+        "goals": 15,
+        "assists": 11,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: LOLIII ANIME"
+      ]
+    },
+    "p197": {
+      "name": "matviyko",
+      "current_team": "LOLIII ANIME",
+      "stats": {
+        "matches": 0,
+        "goals": 14,
+        "assists": 10,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: LOLIII ANIME",
+        "Сезон 5"
+      ]
+    },
+    "p198": {
+      "name": "ℙℍ𝔸ℝ𝔸𝕆ℕ",
+      "current_team": "LOLIII ANIME",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 0,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 3: LOLIII ANIME"
+      ]
+    },
+    "p199": {
+      "name": "Spee",
+      "current_team": "not today",
+      "stats": {
+        "matches": 0,
+        "goals": 30,
+        "assists": 22,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: not today"
+      ]
+    },
+    "p200": {
+      "name": "pero",
+      "current_team": "not today",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 1,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 3: not today"
+      ]
+    },
+    "p201": {
+      "name": "Elektra",
+      "current_team": "not today",
+      "stats": {
+        "matches": 0,
+        "goals": 21,
+        "assists": 12,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: not today"
+      ]
+    },
+    "p202": {
+      "name": "d j u s♛",
+      "current_team": "not today",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 3,
+        "cs": 5
+      },
+      "history": [
+        "Сезон 3: not today"
+      ]
+    },
+    "p203": {
+      "name": "roger",
+      "current_team": "not today",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: not today"
+      ]
+    },
+    "p204": {
+      "name": "ramos",
+      "current_team": "SHULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 7,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: SHULC RS"
+      ]
+    },
+    "p205": {
+      "name": "Maio",
+      "current_team": "SHULC RS",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 4,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 3: SHULC RS"
+      ]
+    },
+    "p206": {
+      "name": "Nike",
+      "current_team": "Yellow Submarine",
+      "stats": {
+        "matches": 0,
+        "goals": 44,
+        "assists": 25,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Yellow Submarine",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p207": {
+      "name": "fcdk",
+      "current_team": "Yellow Submarine",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 7
+      },
+      "history": [
+        "Сезон 3: Yellow Submarine",
+        "Сезон 5"
+      ]
+    },
+    "p208": {
+      "name": "Kopis",
+      "current_team": "Yellow Submarine",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 4,
+        "cs": 11
+      },
+      "history": [
+        "Сезон 3: Yellow Submarine",
+        "Сезон 5"
+      ]
+    },
+    "p209": {
+      "name": "Forever",
+      "current_team": "Yellow Submarine",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 1,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 3: Yellow Submarine",
+        "Сезон 8"
+      ]
+    },
+    "p210": {
+      "name": "pinotek.",
+      "current_team": "Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Бєси"
+      ]
+    },
+    "p211": {
+      "name": "Cigarette",
+      "current_team": "Бєси",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Бєси"
+      ]
+    },
+    "p212": {
+      "name": "Wertuhan",
+      "current_team": "Мрія",
+      "stats": {
+        "matches": 0,
+        "goals": 161,
+        "assists": 84,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Мрія",
+        "Сезон 4",
+        "Сезон 6"
+      ]
+    },
+    "p213": {
+      "name": "Shvetsarec",
+      "current_team": "Мрія",
+      "stats": {
+        "matches": 0,
+        "goals": 12,
+        "assists": 15,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Мрія",
+        "Сезон 5"
+      ]
+    },
+    "p214": {
+      "name": "Snack ツ",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 92,
+        "assists": 69,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 3: ФК Уєбани",
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 7"
+      ]
+    },
+    "p215": {
+      "name": "chpok",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 64,
+        "assists": 67,
+        "cs": 8
+      },
+      "history": [
+        "Сезон 3: ФК Уєбани",
+        "Сезон 4",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p216": {
+      "name": "б9",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 58,
+        "assists": 27,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 3: ФК Уєбани",
+        "Сезон 4"
+      ]
+    },
+    "p217": {
+      "name": "4fun",
+      "current_team": "ФК Уєбани",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: ФК Уєбани"
+      ]
+    },
+    "p218": {
+      "name": "Винрис",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 21,
+        "assists": 4,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p219": {
+      "name": "HachimanOrnn",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p220": {
+      "name": "žota",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p221": {
+      "name": "Leverkusen",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p222": {
+      "name": "Hawk",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 4,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p223": {
+      "name": "starlord",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p224": {
+      "name": "xav1to",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p225": {
+      "name": "Vinicius Jr.",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p226": {
+      "name": "Йо13💙💛",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p227": {
+      "name": "Hiroto",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p228": {
+      "name": "JuliaNn9",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p229": {
+      "name": "Онанимус",
+      "current_team": "Вільні агенти",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 2,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 3: Вільні агенти"
+      ]
+    },
+    "p230": {
+      "name": "3oomer",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 108,
+        "assists": 60,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 8"
+      ]
+    },
+    "p231": {
+      "name": "pukhovik",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 61,
+        "assists": 20,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5"
+      ]
+    },
+    "p232": {
+      "name": "splaash",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 30,
+        "assists": 11,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4"
+      ]
+    },
+    "p233": {
+      "name": "Boba Messi",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 31,
+        "assists": 22,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5"
+      ]
+    },
+    "p234": {
+      "name": "xemnas.",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 20,
+        "assists": 9,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4"
+      ]
+    },
+    "p235": {
+      "name": "tabak",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 7,
+        "assists": 9,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4"
+      ]
+    },
+    "p236": {
+      "name": "wh1le.",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 16,
+        "assists": 20,
+        "cs": 28
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p237": {
+      "name": "Onanimous",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 14,
+        "assists": 12,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 4"
+      ]
+    },
+    "p238": {
+      "name": "шкарпетка",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 16,
+        "assists": 24,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p239": {
+      "name": "nwwm",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 7,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 7"
+      ]
+    },
+    "p240": {
+      "name": "зазич",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 42,
+        "assists": 23,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p241": {
+      "name": "чузік",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4"
+      ]
+    },
+    "p242": {
+      "name": "Lionel Pepsi",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 92,
+        "assists": 38,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p243": {
+      "name": "\\./",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4"
+      ]
+    },
+    "p244": {
+      "name": "fi",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 16,
+        "assists": 6,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 4"
+      ]
+    },
+    "p245": {
+      "name": "xRevenge",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 8,
+        "assists": 4,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4"
+      ]
+    },
+    "p246": {
+      "name": "SANECHEk!!",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 6
+      },
+      "history": [
+        "Сезон 4"
+      ]
+    },
+    "p247": {
+      "name": "yoshi",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5"
+      ]
+    },
+    "p248": {
+      "name": "Kondak",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 136,
+        "assists": 74,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p249": {
+      "name": "kwaro",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 10,
+        "assists": 12,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 4"
+      ]
+    },
+    "p250": {
+      "name": "Bommi",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 33,
+        "assists": 36,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 4",
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p251": {
+      "name": "гоу",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 92,
+        "assists": 47,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 8"
+      ]
+    },
+    "p252": {
+      "name": "Allister",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 0,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 5"
+      ]
+    },
+    "p253": {
+      "name": "1nixk",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5"
+      ]
+    },
+    "p254": {
+      "name": "tooman",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 5
+      },
+      "history": [
+        "Сезон 5"
+      ]
+    },
+    "p255": {
+      "name": "Psychocainë",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 137,
+        "assists": 39,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p256": {
+      "name": "Ryuzen",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 26,
+        "assists": 30,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5"
+      ]
+    },
+    "p257": {
+      "name": "Miao",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 45,
+        "assists": 50,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p258": {
+      "name": "heartless",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 118,
+        "assists": 57,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p259": {
+      "name": "Ramz",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 14,
+        "assists": 33,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 8"
+      ]
+    },
+    "p260": {
+      "name": "Alessio",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 2,
+        "cs": 12
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p261": {
+      "name": "Butko",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 7
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p262": {
+      "name": "romsta",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 16,
+        "assists": 11,
+        "cs": 4
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p263": {
+      "name": "darius",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 9,
+        "assists": 8,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 5"
+      ]
+    },
+    "p264": {
+      "name": "olya",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 34,
+        "assists": 24,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p265": {
+      "name": "GG Allin",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 19,
+        "assists": 46,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p266": {
+      "name": "олег",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 16,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5"
+      ]
+    },
+    "p267": {
+      "name": "Music",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 6,
+        "cs": 12
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6"
+      ]
+    },
+    "p268": {
+      "name": "serik",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 18,
+        "assists": 20,
+        "cs": 11
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p269": {
+      "name": "Winalist",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 71,
+        "assists": 35,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5",
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p270": {
+      "name": "Misixxx",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 1,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5"
+      ]
+    },
+    "p271": {
+      "name": "chuzik",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 1,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 5"
+      ]
+    },
+    "p272": {
+      "name": "crystal",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 8,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 5"
+      ]
+    },
+    "p273": {
+      "name": "gutt41",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 6,
+        "assists": 0,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p274": {
+      "name": "FolkSCFarense",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 121,
+        "assists": 109,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p275": {
+      "name": "krvbs",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 28,
+        "assists": 19,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p276": {
+      "name": "дилдо",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 3,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p277": {
+      "name": "gambling4",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 103,
+        "assists": 49,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 8"
+      ]
+    },
+    "p278": {
+      "name": "візаутік",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 26,
+        "assists": 30,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p279": {
+      "name": "matv1ykoo",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 41,
+        "assists": 13,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p280": {
+      "name": "Wein",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 23,
+        "assists": 9,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p281": {
+      "name": "Ryu",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 36,
+        "assists": 28,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p282": {
+      "name": "НАЗАР",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 10,
+        "assists": 5,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p283": {
+      "name": "INDYS",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 8,
+        "assists": 9,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 8"
+      ]
+    },
+    "p284": {
+      "name": "okay",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 8,
+        "assists": 13,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p285": {
+      "name": "wembanyama",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 6,
+        "cs": 9
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p286": {
+      "name": "Broadway",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 3,
+        "cs": 8
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p287": {
+      "name": "Tartaletka",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 0,
+        "cs": 4
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p288": {
+      "name": "choz",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 82,
+        "assists": 66,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p289": {
+      "name": "numanumayei",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 70,
+        "assists": 49,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p290": {
+      "name": "neyad1",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 18,
+        "assists": 5,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p291": {
+      "name": "winstreak",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 4,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p292": {
+      "name": "Bulbaque",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 12,
+        "assists": 12,
+        "cs": 5
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p293": {
+      "name": "рачок",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 20,
+        "assists": 28,
+        "cs": 5
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7"
+      ]
+    },
+    "p294": {
+      "name": "m4lf",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 30,
+        "assists": 21,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p295": {
+      "name": "!",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 3,
+        "cs": 4
+      },
+      "history": [
+        "Сезон 6",
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p296": {
+      "name": "shtefan312",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 10,
+        "assists": 3,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p297": {
+      "name": "non_DrK",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 0,
+        "assists": 0,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 6"
+      ]
+    },
+    "p298": {
+      "name": "бичуган",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 49,
+        "assists": 18,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p299": {
+      "name": "646",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 36,
+        "assists": 25,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p300": {
+      "name": "шкарп",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 5,
+        "assists": 15,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p301": {
+      "name": "Ra",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 15,
+        "assists": 22,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p302": {
+      "name": "arata x squezze",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 23,
+        "assists": 20,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p303": {
+      "name": "fawryx",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 8,
+        "cs": 9
+      },
+      "history": [
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p304": {
+      "name": "Mel",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 7,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p305": {
+      "name": "Pirlo",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 4,
+        "assists": 16,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p306": {
+      "name": "Mest1k1ch",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 3,
+        "assists": 18,
+        "cs": 19
+      },
+      "history": [
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p307": {
+      "name": "navarra",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 0,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p308": {
+      "name": "Ayvon",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 6,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p309": {
+      "name": "Coutinho",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 29,
+        "assists": 14,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p310": {
+      "name": "morzh",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 41,
+        "assists": 15,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p311": {
+      "name": "rajsa",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 35,
+        "assists": 21,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p312": {
+      "name": "заєць",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 19,
+        "assists": 8,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p313": {
+      "name": "QwQ",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 7,
+        "assists": 2,
+        "cs": 2
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p314": {
+      "name": "наза",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 14,
+        "assists": 8,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 7",
+        "Сезон 8"
+      ]
+    },
+    "p315": {
+      "name": "28",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 4,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 7"
+      ]
+    },
+    "p316": {
+      "name": "граніт науки",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 21,
+        "assists": 39,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p317": {
+      "name": "ruthless",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 39,
+        "assists": 27,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p318": {
+      "name": "шkарп",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 9,
+        "assists": 8,
+        "cs": 1
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p319": {
+      "name": "banana leclerc",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 13,
+        "assists": 5,
+        "cs": 8
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p320": {
+      "name": "Edzuk",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 6,
+        "assists": 3,
+        "cs": 9
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p321": {
+      "name": "Keerox",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 1,
+        "assists": 9,
+        "cs": 4
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p322": {
+      "name": "Rodri",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 0,
+        "cs": 3
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p323": {
+      "name": "Kop1s",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 5,
+        "cs": 5
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p324": {
+      "name": "km1t",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 9,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p325": {
+      "name": "sae",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 29,
+        "assists": 9,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p326": {
+      "name": "arata x squeeze",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 18,
+        "assists": 17,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p327": {
+      "name": "kawaine",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 2,
+        "assists": 5,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p328": {
+      "name": "лизон СОСИсон",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 9,
+        "assists": 4,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p329": {
+      "name": "arfusya",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 12,
+        "assists": 8,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p330": {
+      "name": "magic of friendship",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 7,
+        "assists": 5,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p331": {
+      "name": "geo-",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 31,
+        "assists": 10,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p332": {
+      "name": "60hz",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 27,
+        "assists": 8,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p333": {
+      "name": "viperr",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 12,
+        "assists": 6,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p334": {
+      "name": "Жулік не воруй!",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 16,
+        "assists": 12,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    },
+    "p335": {
+      "name": "N1",
+      "current_team": "",
+      "stats": {
+        "matches": 0,
+        "goals": 38,
+        "assists": 22,
+        "cs": 0
+      },
+      "history": [
+        "Сезон 8"
+      ]
+    }
+  }
+}

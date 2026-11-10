@@ -1,0 +1,73 @@
+/* UHL ARCHIVE Master Stylesheet */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: #121212;
+    border-bottom: 1px solid #222;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar .logo { font-size: 20px; font-weight: 800; color: #fff; }
+.navbar .logo span { color: #d4af37; }
+.navbar nav { display: flex; gap: 12px; }
+.navbar nav a {
+    color: #aaa; text-decoration: none; font-size: 14px; font-weight: 600;
+    padding: 6px 12px; border-radius: 4px; transition: 0.2s;
+}
+.navbar nav a:hover, .navbar nav a.active { color: #d4af37; background: #1a1a1a; }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 30px 20px; flex: 1; width: 100%; }
+.page-header { margin-bottom: 25px; }
+.page-header h1 { font-size: 28px; color: #fff; margin-bottom: 5px; }
+
+/* TABS & FILTERS */
+.filter-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 25px; }
+.tab-btn {
+    background: #151515; color: #aaa; border: 1px solid #262626; padding: 8px 16px;
+    border-radius: 4px; cursor: pointer; font-weight: 600; transition: 0.2s;
+}
+.tab-btn:hover, .tab-btn.active { background: #d4af37; color: #000; border-color: #d4af37; }
+
+/* DATA TABLES */
+.table-responsive { overflow-x: auto; margin-bottom: 25px; }
+.data-table {
+    width: 100%; border-collapse: collapse; background: #151515; border: 1px solid #262626; border-radius: 6px;
+}
+.data-table th, .data-table td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #222; font-size: 14px; }
+.data-table th { background: #1a1a1a; color: #d4af37; font-weight: 700; }
+.data-table tr:hover { background: #1c1c1c; }
+
+/* CONTROLS & SEARCH */
+.search-bar, .controls-bar { display: flex; gap: 15px; margin-bottom: 20px; }
+.search-bar input, .controls-bar input, .controls-bar select {
+    background: #151515; color: #fff; border: 1px solid #262626; padding: 10px 15px;
+    border-radius: 4px; font-size: 14px; flex: 1;
+}
+
+/* CARDS & TIMELINE */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; }
+.card { background: #151515; border: 1px solid #262626; border-radius: 6px; padding: 20px; }
+.timeline-item { border-left: 3px solid #d4af37; margin-bottom: 15px; }
+.season-tag { background: #d4af37; color: #000; font-weight: bold; font-size: 11px; padding: 2px 6px; border-radius: 3px; display: inline-block; margin-bottom: 8px; }
+
+/* PAGINATION */
+.pagination { display: flex; gap: 5px; justify-content: center; margin-top: 20px; }
+.pagination button { background: #151515; color: #fff; border: 1px solid #262626; padding: 6px 12px; border-radius: 4px; cursor: pointer; }
+.pagination button.active { background: #d4af37; color: #000; font-weight: bold; }
+
+footer { background: #111; border-top: 1px solid #222; text-align: center; padding: 20px; color: #666; font-size: 13px; }

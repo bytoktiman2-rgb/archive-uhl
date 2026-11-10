@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHL ARCHIVE | Кубок Регіонів</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background-color: #0a0a0a; color: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; display: flex; flex-direction: column; min-height: 100vh; }
+        .navbar { background: #121212; border-bottom: 1px solid #222; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .navbar .logo { font-size: 20px; font-weight: 800; color: #fff; }
+        .navbar .logo span { color: #d4af37; }
+        .navbar nav { display: flex; gap: 12px; }
+        .navbar nav a { color: #aaa; text-decoration: none; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 4px; transition: 0.2s; }
+        .navbar nav a:hover, .navbar nav a.active { color: #d4af37; background: #1a1a1a; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 30px 20px; flex: 1; width: 100%; }
+        .page-header { margin-bottom: 25px; }
+        .page-header h1 { font-size: 28px; color: #fff; margin-bottom: 5px; }
+        .kr-section { margin-bottom: 35px; }
+        .kr-header { border-left: 4px solid #d4af37; padding-left: 15px; margin-bottom: 15px; }
+        .kr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 15px; }
+        .card { background: #151515; border: 1px solid #262626; border-radius: 6px; padding: 20px; }
+        .card h3 { color: #fff; font-size: 16px; margin-bottom: 12px; }
+        .kr-list, .kr-roster-list { list-style: none; padding: 0; margin: 0; }
+        .kr-list li, .kr-roster-list li { padding: 8px 0; border-bottom: 1px solid #222; font-size: 14px; }
+        .kr-list li:last-child, .kr-roster-list li:last-child { border-bottom: none; }
+        .kr-group-title { color: #d4af37; font-weight: bold; display: inline-block; min-width: 85px; }
+        .kr-badge { display: inline-flex; align-items: center; justify-content: center; min-width: 18px; height: 18px; padding: 0 5px; font-size: 11px; font-weight: 800; border-radius: 3px; margin: 0 4px; vertical-align: middle; }
+        .kr-badge-c { background: #d4af37; color: #000; }
+        .kr-badge-a { background: #333; color: #fff; border: 1px solid #555; }
+        footer { background: #111; border-top: 1px solid #222; text-align: center; padding: 20px; color: #666; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">UHL <span>ARCHIVE</span></div>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="players.html">Гравці</a>
+            <a href="teams.html">Команди</a>
+            <a href="seasons.html">Сезони</a>
+            <a href="regions.html" class="active">Кубок Регіонів</a>
+            <a href="transfers.html">Трансфери</a>
+            <a href="events.html">Події та Рекорди</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-header">
+            <h1>🌐 Кубок Регіонів (КР)</h1>
+            <p style="color: #888;">Турніри збірних регіонів та областей України з хаксболу</p>
+        </div>
+
+        <!-- КУБОК РЕГІОНІВ №6 -->
+        <section class="kr-section">
+            <div class="kr-header">
+                <h2 style="color:#d4af37;">🏆 Кубок Регіонів №6</h2>
+            </div>
+            
+            <div class="kr-grid">
+                <div class="card">
+                    <h3>📌 Груповий Етап №6</h3>
+                    <ul class="kr-list">
+                        <li><span class="kr-group-title">Група A:</span> Зоря Миронівка, Верес Рівне, Нікополь, Прикарпаття, ДЮСШ Хмельницький</li>
+                        <li><span class="kr-group-title">Група B:</span> Металіст Харків, Нива Вінниця, ЛНЗ Черкаси, Динамо Київ, Антихайп Київ</li>
+                        <li><span class="kr-group-title">Група C:</span> Карпати Львів, Семенівка, Поділля Хмельницький, Дніпро-1, Енергетик Солоницівка</li>
+                        <li><span class="kr-group-title">Група D:</span> Дніпро, Волинь Луцьк, Чернігів, Скала Стрий</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🛡️ Ключові Склади та Капітани КР №6</h3>
+                    <ul class="kr-roster-list">
+                        <li><strong>Зоря Миронівка:</strong> wizout <span class="kr-badge kr-badge-c">C</span>, tekashka <span class="kr-badge kr-badge-a">A</span>, cancer <span class="kr-badge kr-badge-a">A</span>, заєць, yoshi, mali</li>
+                        <li><strong>Динамо Київ:</strong> roger <span class="kr-badge kr-badge-c">C</span>, donhay <span class="kr-badge kr-badge-a">A</span>, bruuuhh <span class="kr-badge kr-badge-a">A</span>, Vinris, Broadway</li>
+                        <li><strong>Верес Рівне:</strong> k3o 永 <span class="kr-badge kr-badge-c">C</span>, eQLer <span class="kr-badge kr-badge-a">A</span>, pro0ch, sinch, Butko, гоу, frayz, wh1le</li>
+                        <li><strong>Дніпро:</strong> Din <span class="kr-badge kr-badge-c">C</span>, Agbonlahor 11 <span class="kr-badge kr-badge-a">A</span>, бун, Shvetsarec</li>
+                        <li><strong>Волинь Луцьк:</strong> Forever <span class="kr-badge kr-badge-c">C</span>, chpok <span class="kr-badge kr-badge-a">A</span>, 111, 3oomer, ℙℍ𝔸ℝ𝔸𝕆ℕ</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- КУБОК РЕГІОНІВ №5 -->
+        <section class="kr-section">
+            <div class="kr-header">
+                <h2 style="color:#d4af37;">🏆 Кубок Регіонів №5</h2>
+            </div>
+            
+            <div class="kr-grid">
+                <div class="card">
+                    <h3>📌 Розподіл по Групах №5</h3>
+                    <ul class="kr-list">
+                        <li><span class="kr-group-title">Група A:</span> ЛНЗ Черкаси, Карпати Львів, Металург Запоріжжя, Олександрія</li>
+                        <li><span class="kr-group-title">Група B:</span> Динамо Київ, Металіст Харків, Десна Чернігів, Поділля Хмельницький</li>
+                        <li><span class="kr-group-title">Група C:</span> Нива Тернопіль, Дніпро, Шахтар Донецьк, Нива Вінниця</li>
+                        <li><span class="kr-group-title">Група D:</span> Волинь Луцьк, Зоря Луганськ, Дніпро-1, Арсенал Київ</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🛡️ Ключові Склади та Капітани КР №5</h3>
+                    <ul class="kr-roster-list">
+                        <li><strong>ЛНЗ Черкаси:</strong> hoW <span class="kr-badge kr-badge-c">C</span>, Kjamb <span class="kr-badge kr-badge-a">A</span>, Сирник, trowlll, X1no</li>
+                        <li><strong>Карпати Львів:</strong> lfc <span class="kr-badge kr-badge-c">C</span>, Choji, arsenxiks, Klipcrop <span class="kr-badge kr-badge-a">A</span>, Можіт</li>
+                        <li><strong>Динамо Київ:</strong> elox. <span class="kr-badge kr-badge-c">C</span>, iks <span class="kr-badge kr-badge-a">A</span>, Sou., l1ch, adriano, gr0nback <span class="kr-badge kr-badge-c">C</span></li>
+                        <li><strong>Металіст Харків:</strong> 69 <span class="kr-badge kr-badge-c">C</span>, Mest1k1ch, Dorfixz, ExS1nEeez, Don Bass <span class="kr-badge kr-badge-a">A</span></li>
+                        <li><strong>Нива Тернопіль:</strong> bitterSweet <span class="kr-badge kr-badge-c">C</span>, DED, Amane Missa <span class="kr-badge kr-badge-a">A</span>, УАрик, Folk</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 UHL Archive. Усі права захищено.</p>
+    </footer>
+</body>
+</html>

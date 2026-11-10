@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHL ARCHIVE | Профіль команди</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">UHL <span>ARCHIVE</span></div>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="players.html">Гравці</a>
+            <a href="teams.html" class="active">Команди</a>
+            <a href="seasons.html">Сезони</a>
+            <a href="regions.html">Кубок Регіонів</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="profile-header">
+            <div class="avatar team-avatar" id="team-avatar">🛡️</div>
+            <div class="profile-info">
+                <h1 id="team-title">Завантаження...</h1>
+                <p class="subtitle" id="team-status">Клуб УХЛ</p>
+            </div>
+        </div>
+
+        <section class="stats-grid">
+            <div class="stat-box">
+                <h3>Загалом голів</h3>
+                <p id="team-stat-goals">-</p>
+            </div>
+            <div class="stat-box">
+                <h3>Загалом асистів</h3>
+                <p id="team-stat-assists">-</p>
+            </div>
+            <div class="stat-box">
+                <h3>Сухі тайми</h3>
+                <p id="team-stat-cs">-</p>
+            </div>
+            <div class="stat-box">
+                <h3>Гравців у базі</h3>
+                <p id="team-stat-count">-</p>
+            </div>
+        </section>
+
+        <section class="card" style="margin-bottom: 30px;">
+            <h2>⚡ Поточний склад</h2>
+            <ul id="current-roster" class="history-list">
+                <!-- Динамічно через JS -->
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>📜 Історія та колишні гравці</h2>
+            <ul id="alumni-roster" class="history-list">
+                <!-- Динамічно через JS -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 UHL Archive. Усі права захищено.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
